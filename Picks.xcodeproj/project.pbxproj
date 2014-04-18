@@ -19,6 +19,22 @@
 		0950DCF318FFABFA00957E9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0950DCDB18FFABFA00957E9C /* UIKit.framework */; };
 		0950DCFB18FFABFA00957E9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0950DCF918FFABFA00957E9C /* InfoPlist.strings */; };
 		0950DCFD18FFABFA00957E9C /* PicksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0950DCFC18FFABFA00957E9C /* PicksTests.m */; };
+		0950DD0918FFAE3200957E9C /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0950DD0718FFAE3200957E9C /* CardViewController.m */; };
+		0950DD0A18FFAE3200957E9C /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0950DD0818FFAE3200957E9C /* CardViewController.xib */; };
+		0950DD0D18FFAEC900957E9C /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0950DD0C18FFAEC900957E9C /* MenuViewController.m */; };
+		0950DD1018FFAFE200957E9C /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0950DD0F18FFAFE200957E9C /* CardView.m */; };
+		0950DD1318FFB05E00957E9C /* VoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0950DD1218FFB05E00957E9C /* VoteView.m */; };
+		0950DD1518FFB29E00957E9C /* defaultImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0950DD1418FFB29E00957E9C /* defaultImage.jpg */; };
+		095CDC0219003E5F00802DB9 /* UIViewController+SlidingMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095CDC0119003E5F00802DB9 /* UIViewController+SlidingMenuViewController.m */; };
+		095CDC051900419800802DB9 /* CardOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 095CDC041900419800802DB9 /* CardOverlayView.m */; };
+		09BFC96B19009264008A4529 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BFC96A19009264008A4529 /* FacebookSDK.framework */; };
+		09BFC96F19009390008A4529 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BFC96D19009390008A4529 /* LoginViewController.m */; };
+		09BFC97019009390008A4529 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFC96E19009390008A4529 /* LoginViewController.xib */; };
+		09BFC973190122A2008A4529 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BFC972190122A2008A4529 /* User.m */; };
+		09BFC9761901BD2E008A4529 /* menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 09BFC9741901BD2E008A4529 /* menu-button.png */; };
+		09BFC9771901BD2E008A4529 /* menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09BFC9751901BD2E008A4529 /* menu-button@2x.png */; };
+		09BFC97A1901C938008A4529 /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BFC9791901C938008A4529 /* NavViewController.m */; };
+		C83D48F08F6D495B95D9F103 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC7A540DC2F4F67A91E1B07 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +64,32 @@
 		0950DCF818FFABFA00957E9C /* PicksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PicksTests-Info.plist"; sourceTree = "<group>"; };
 		0950DCFA18FFABFA00957E9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0950DCFC18FFABFA00957E9C /* PicksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicksTests.m; sourceTree = "<group>"; };
+		0950DD0618FFAE3200957E9C /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		0950DD0718FFAE3200957E9C /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		0950DD0818FFAE3200957E9C /* CardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
+		0950DD0B18FFAEC900957E9C /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		0950DD0C18FFAEC900957E9C /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		0950DD0E18FFAFE200957E9C /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		0950DD0F18FFAFE200957E9C /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		0950DD1118FFB05E00957E9C /* VoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoteView.h; sourceTree = "<group>"; };
+		0950DD1218FFB05E00957E9C /* VoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoteView.m; sourceTree = "<group>"; };
+		0950DD1418FFB29E00957E9C /* defaultImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = defaultImage.jpg; sourceTree = "<group>"; };
+		095CDC0019003E5F00802DB9 /* UIViewController+SlidingMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SlidingMenuViewController.h"; sourceTree = "<group>"; };
+		095CDC0119003E5F00802DB9 /* UIViewController+SlidingMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SlidingMenuViewController.m"; sourceTree = "<group>"; };
+		095CDC031900419800802DB9 /* CardOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardOverlayView.h; sourceTree = "<group>"; };
+		095CDC041900419800802DB9 /* CardOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardOverlayView.m; sourceTree = "<group>"; };
+		09BFC96A19009264008A4529 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		09BFC96C19009390008A4529 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		09BFC96D19009390008A4529 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		09BFC96E19009390008A4529 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		09BFC971190122A2008A4529 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		09BFC972190122A2008A4529 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		09BFC9741901BD2E008A4529 /* menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button.png"; sourceTree = "<group>"; };
+		09BFC9751901BD2E008A4529 /* menu-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button@2x.png"; sourceTree = "<group>"; };
+		09BFC9781901C938008A4529 /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		09BFC9791901C938008A4529 /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
+		2CC7A540DC2F4F67A91E1B07 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B97D911E4D4599BFB3C12D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +98,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0950DCDA18FFABFA00957E9C /* CoreGraphics.framework in Frameworks */,
+				09BFC96B19009264008A4529 /* FacebookSDK.framework in Frameworks */,
 				0950DCDC18FFABFA00957E9C /* UIKit.framework in Frameworks */,
 				0950DCD818FFABFA00957E9C /* Foundation.framework in Frameworks */,
+				C83D48F08F6D495B95D9F103 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +125,7 @@
 				0950DCF618FFABFA00957E9C /* PicksTests */,
 				0950DCD618FFABFA00957E9C /* Frameworks */,
 				0950DCD518FFABFA00957E9C /* Products */,
+				F6B97D911E4D4599BFB3C12D /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,10 +141,12 @@
 		0950DCD618FFABFA00957E9C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				09BFC96A19009264008A4529 /* FacebookSDK.framework */,
 				0950DCD718FFABFA00957E9C /* Foundation.framework */,
 				0950DCD918FFABFA00957E9C /* CoreGraphics.framework */,
 				0950DCDB18FFABFA00957E9C /* UIKit.framework */,
 				0950DCF018FFABFA00957E9C /* XCTest.framework */,
+				2CC7A540DC2F4F67A91E1B07 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,8 +154,17 @@
 		0950DCDD18FFABFA00957E9C /* Picks */ = {
 			isa = PBXGroup;
 			children = (
+				09BFC97B1901D0FD008A4529 /* Controllers */,
+				09BFC97C1901D11C008A4529 /* Views */,
 				0950DCE618FFABFA00957E9C /* AppDelegate.h */,
 				0950DCE718FFABFA00957E9C /* AppDelegate.m */,
+				0950DD0818FFAE3200957E9C /* CardViewController.xib */,
+				09BFC96E19009390008A4529 /* LoginViewController.xib */,
+				09BFC971190122A2008A4529 /* User.h */,
+				09BFC972190122A2008A4529 /* User.m */,
+				0950DD1418FFB29E00957E9C /* defaultImage.jpg */,
+				09BFC9741901BD2E008A4529 /* menu-button.png */,
+				09BFC9751901BD2E008A4529 /* menu-button@2x.png */,
 				0950DCE918FFABFA00957E9C /* Images.xcassets */,
 				0950DCDE18FFABFA00957E9C /* Supporting Files */,
 			);
@@ -144,6 +200,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		09BFC97B1901D0FD008A4529 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				09BFC9781901C938008A4529 /* NavViewController.h */,
+				09BFC9791901C938008A4529 /* NavViewController.m */,
+				0950DD0B18FFAEC900957E9C /* MenuViewController.h */,
+				0950DD0C18FFAEC900957E9C /* MenuViewController.m */,
+				0950DD0618FFAE3200957E9C /* CardViewController.h */,
+				0950DD0718FFAE3200957E9C /* CardViewController.m */,
+				095CDC0019003E5F00802DB9 /* UIViewController+SlidingMenuViewController.h */,
+				095CDC0119003E5F00802DB9 /* UIViewController+SlidingMenuViewController.m */,
+				09BFC96C19009390008A4529 /* LoginViewController.h */,
+				09BFC96D19009390008A4529 /* LoginViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		09BFC97C1901D11C008A4529 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0950DD0E18FFAFE200957E9C /* CardView.h */,
+				0950DD0F18FFAFE200957E9C /* CardView.m */,
+				0950DD1118FFB05E00957E9C /* VoteView.h */,
+				0950DD1218FFB05E00957E9C /* VoteView.m */,
+				095CDC031900419800802DB9 /* CardOverlayView.h */,
+				095CDC041900419800802DB9 /* CardOverlayView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0950DD0018FFABFA00957E9C /* Build configuration list for PBXNativeTarget "Picks" */;
 			buildPhases = (
+				0BA77243BCD647379ECB8EA1 /* Check Pods Manifest.lock */,
 				0950DCD018FFABFA00957E9C /* Sources */,
 				0950DCD118FFABFA00957E9C /* Frameworks */,
 				0950DCD218FFABFA00957E9C /* Resources */,
+				E6F2860F8D84485C96C75EA2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +279,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Rafael and Rau";
 				TargetAttributes = {
+					0950DCD318FFABFA00957E9C = {
+						DevelopmentTeam = 2T4Z7K8TAX;
+					};
 					0950DCEE18FFABFA00957E9C = {
 						TestTargetID = 0950DCD318FFABFA00957E9C;
 					};
@@ -219,8 +310,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09BFC97019009390008A4529 /* LoginViewController.xib in Resources */,
 				0950DCE218FFABFA00957E9C /* InfoPlist.strings in Resources */,
+				09BFC9761901BD2E008A4529 /* menu-button.png in Resources */,
+				09BFC9771901BD2E008A4529 /* menu-button@2x.png in Resources */,
 				0950DCEA18FFABFA00957E9C /* Images.xcassets in Resources */,
+				0950DD0A18FFAE3200957E9C /* CardViewController.xib in Resources */,
+				0950DD1518FFB29E00957E9C /* defaultImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,13 +330,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BA77243BCD647379ECB8EA1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6F2860F8D84485C96C75EA2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0950DCD018FFABFA00957E9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09BFC973190122A2008A4529 /* User.m in Sources */,
+				09BFC97A1901C938008A4529 /* NavViewController.m in Sources */,
+				095CDC0219003E5F00802DB9 /* UIViewController+SlidingMenuViewController.m in Sources */,
+				0950DD1318FFB05E00957E9C /* VoteView.m in Sources */,
 				0950DCE818FFABFA00957E9C /* AppDelegate.m in Sources */,
+				095CDC051900419800802DB9 /* CardOverlayView.m in Sources */,
 				0950DCE418FFABFA00957E9C /* main.m in Sources */,
+				09BFC96F19009390008A4529 /* LoginViewController.m in Sources */,
+				0950DD1018FFAFE200957E9C /* CardView.m in Sources */,
+				0950DD0918FFAE3200957E9C /* CardViewController.m in Sources */,
+				0950DD0D18FFAEC900957E9C /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,26 +492,42 @@
 		};
 		0950DD0118FFABFA00957E9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B97D911E4D4599BFB3C12D /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Picks/Picks-Prefix.pch";
 				INFOPLIST_FILE = "Picks/Picks-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		0950DD0218FFABFA00957E9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B97D911E4D4599BFB3C12D /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Picks/Picks-Prefix.pch";
 				INFOPLIST_FILE = "Picks/Picks-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -437,6 +591,7 @@
 				0950DD0218FFABFA00957E9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0950DD0318FFABFA00957E9C /* Build configuration list for PBXNativeTarget "PicksTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +600,7 @@
 				0950DD0518FFABFA00957E9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

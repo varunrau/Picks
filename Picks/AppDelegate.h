@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FacebookSDK/FacebookSDK.h>
+#import "User.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, FBLoginViewDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) User *user;
+
+- (void) sessionStateChanged:(FBSession *)session state:(FBSessionState)state error:(NSError *)error;
+
+- (void) userLoggedOut;
 
 @end
