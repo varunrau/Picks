@@ -128,7 +128,7 @@
 }
 
 - (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 3;
+    return 4;
 }
 
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -139,7 +139,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
     if (indexPath.section == 0) {
-        NSArray *controllers = @[@"Home",@"My Pictures",@"Top Pictures"];
+        NSArray *controllers = @[@"Home",@"My Pictures",@"Top Pictures",@"Upload Pictures"];
         cell.textLabel.text = controllers[indexPath.row];
     }
     return cell;
