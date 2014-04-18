@@ -24,7 +24,7 @@
     
     self.backgroundColor = [UIColor whiteColor];
     
-    [self loadCardView];
+    [self initCardViews];
     [self setupView];
     
     return self;
@@ -33,14 +33,28 @@
 - (void) setupView {
 }
 
-- (void) loadCardView {
-    self.topCardView = [[CardView alloc] initWithFrame:CGRectMake(60,100,200,260)];
-    self.topCardView.parentView = self;
+- (void) initCardViews {
+    
+    self.topCardView = [self addCardView];
+    
+    self.bottomCardView = [self addCardView];
+    
+    [self addSubview:self.bottomCardView];
+    [self addSubview:self.topCardView];
 }
 
 - (void) cardViewSwiped:(CardView *)cardView inDirection:(Direction)direction {
     [cardView removeFromSuperview];
-    [self loadCardView];
+    
+    self.topCardView = self.bottomCardView;
+    self.bottomCardView = [self addCardView];
+    [self addSubview:self.bottomCardView];
+}
+
+- (CardView *) addCardView {
+    CardView *cv = [[CardView alloc] initWithFrame:CGRectMake(60,100,200,260)];
+    cv.parentView = self;
+    return cv;
 }
 
 /*
