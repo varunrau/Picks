@@ -24,19 +24,19 @@
     
     self.backgroundColor = [UIColor whiteColor];
     
-    [self initCardViews];
     [self setupView];
     
     return self;
 }
 
 - (void) setupView {
+    [self initCardViews];
+    
 }
 
 - (void) initCardViews {
     
     self.topCardView = [self addCardView];
-    
     self.bottomCardView = [self addCardView];
     
     [self addSubview:self.bottomCardView];
