@@ -62,6 +62,7 @@
 -(void) userLoggedIn {
     [FBRequestConnection startWithGraphPath:@"/me" parameters:nil HTTPMethod:@"GET" completionHandler:^(FBRequestConnection *connection, id result, NSError *error) {
         self.user.name = [result objectForKey:@"name"];
+        self.user.facebookId = [result objectForKey:@"username"];
         self.user.profileImageURL = [NSString stringWithFormat:@"https://graph.facebook.com/%@/picture?type=large", [result objectForKey:@"username"]];
     }];
     
