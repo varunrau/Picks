@@ -34,6 +34,12 @@
 		09BFC9761901BD2E008A4529 /* menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 09BFC9741901BD2E008A4529 /* menu-button.png */; };
 		09BFC9771901BD2E008A4529 /* menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09BFC9751901BD2E008A4529 /* menu-button@2x.png */; };
 		09BFC97A1901C938008A4529 /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BFC9791901C938008A4529 /* NavViewController.m */; };
+		09BFC98019026452008A4529 /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BFC97E19026452008A4529 /* PictureViewController.m */; };
+		09BFC98119026452008A4529 /* PictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFC97F19026452008A4529 /* PictureViewController.xib */; };
+		09BFC985190264E0008A4529 /* TopPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BFC983190264E0008A4529 /* TopPictureViewController.m */; };
+		09BFC986190264E0008A4529 /* TopPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFC984190264E0008A4529 /* TopPictureViewController.xib */; };
+		09BFC98A190264EC008A4529 /* UploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BFC988190264EC008A4529 /* UploadViewController.m */; };
+		09BFC98B190264EC008A4529 /* UploadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BFC989190264EC008A4529 /* UploadViewController.xib */; };
 		C83D48F08F6D495B95D9F103 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC7A540DC2F4F67A91E1B07 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +94,15 @@
 		09BFC9751901BD2E008A4529 /* menu-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button@2x.png"; sourceTree = "<group>"; };
 		09BFC9781901C938008A4529 /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
 		09BFC9791901C938008A4529 /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
+		09BFC97D19026452008A4529 /* PictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PictureViewController.h; path = ../PictureViewController.h; sourceTree = "<group>"; };
+		09BFC97E19026452008A4529 /* PictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PictureViewController.m; path = ../PictureViewController.m; sourceTree = "<group>"; };
+		09BFC97F19026452008A4529 /* PictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PictureViewController.xib; path = ../PictureViewController.xib; sourceTree = "<group>"; };
+		09BFC982190264E0008A4529 /* TopPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopPictureViewController.h; sourceTree = "<group>"; };
+		09BFC983190264E0008A4529 /* TopPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopPictureViewController.m; sourceTree = "<group>"; };
+		09BFC984190264E0008A4529 /* TopPictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopPictureViewController.xib; sourceTree = "<group>"; };
+		09BFC987190264EC008A4529 /* UploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadViewController.h; sourceTree = "<group>"; };
+		09BFC988190264EC008A4529 /* UploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadViewController.m; sourceTree = "<group>"; };
+		09BFC989190264EC008A4529 /* UploadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UploadViewController.xib; sourceTree = "<group>"; };
 		2CC7A540DC2F4F67A91E1B07 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6B97D911E4D4599BFB3C12D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,8 +173,11 @@
 				09BFC97C1901D11C008A4529 /* Views */,
 				0950DCE618FFABFA00957E9C /* AppDelegate.h */,
 				0950DCE718FFABFA00957E9C /* AppDelegate.m */,
+				09BFC984190264E0008A4529 /* TopPictureViewController.xib */,
+				09BFC989190264EC008A4529 /* UploadViewController.xib */,
 				0950DD0818FFAE3200957E9C /* CardViewController.xib */,
 				09BFC96E19009390008A4529 /* LoginViewController.xib */,
+				09BFC97F19026452008A4529 /* PictureViewController.xib */,
 				09BFC971190122A2008A4529 /* User.h */,
 				09BFC972190122A2008A4529 /* User.m */,
 				0950DD1418FFB29E00957E9C /* defaultImage.jpg */,
@@ -213,6 +231,12 @@
 				095CDC0119003E5F00802DB9 /* UIViewController+SlidingMenuViewController.m */,
 				09BFC96C19009390008A4529 /* LoginViewController.h */,
 				09BFC96D19009390008A4529 /* LoginViewController.m */,
+				09BFC97D19026452008A4529 /* PictureViewController.h */,
+				09BFC97E19026452008A4529 /* PictureViewController.m */,
+				09BFC982190264E0008A4529 /* TopPictureViewController.h */,
+				09BFC983190264E0008A4529 /* TopPictureViewController.m */,
+				09BFC987190264EC008A4529 /* UploadViewController.h */,
+				09BFC988190264EC008A4529 /* UploadViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -311,10 +335,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				09BFC97019009390008A4529 /* LoginViewController.xib in Resources */,
+				09BFC98B190264EC008A4529 /* UploadViewController.xib in Resources */,
 				0950DCE218FFABFA00957E9C /* InfoPlist.strings in Resources */,
 				09BFC9761901BD2E008A4529 /* menu-button.png in Resources */,
 				09BFC9771901BD2E008A4529 /* menu-button@2x.png in Resources */,
 				0950DCEA18FFABFA00957E9C /* Images.xcassets in Resources */,
+				09BFC986190264E0008A4529 /* TopPictureViewController.xib in Resources */,
+				09BFC98119026452008A4529 /* PictureViewController.xib in Resources */,
 				0950DD0A18FFAE3200957E9C /* CardViewController.xib in Resources */,
 				0950DD1518FFB29E00957E9C /* defaultImage.jpg in Resources */,
 			);
@@ -369,13 +396,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				09BFC973190122A2008A4529 /* User.m in Sources */,
+				09BFC98019026452008A4529 /* PictureViewController.m in Sources */,
 				09BFC97A1901C938008A4529 /* NavViewController.m in Sources */,
 				095CDC0219003E5F00802DB9 /* UIViewController+SlidingMenuViewController.m in Sources */,
 				0950DD1318FFB05E00957E9C /* VoteView.m in Sources */,
 				0950DCE818FFABFA00957E9C /* AppDelegate.m in Sources */,
 				095CDC051900419800802DB9 /* CardOverlayView.m in Sources */,
+				09BFC98A190264EC008A4529 /* UploadViewController.m in Sources */,
 				0950DCE418FFABFA00957E9C /* main.m in Sources */,
 				09BFC96F19009390008A4529 /* LoginViewController.m in Sources */,
+				09BFC985190264E0008A4529 /* TopPictureViewController.m in Sources */,
 				0950DD1018FFAFE200957E9C /* CardView.m in Sources */,
 				0950DD0918FFAE3200957E9C /* CardViewController.m in Sources */,
 				0950DD0D18FFAEC900957E9C /* MenuViewController.m in Sources */,

@@ -20,9 +20,6 @@
 
 @interface AppDelegate ()
 
-@property (nonatomic, strong) MenuViewController *menuVC;
-@property (nonatomic, strong) CardViewController *cardVC;
-@property (nonatomic, strong) LoginViewController *loginVC;
 @property (nonatomic, strong) REFrostedViewController *slidingVC;
 @property (nonatomic, strong) NavViewController *navController;
 
@@ -44,6 +41,9 @@
     self.cardVC = [[CardViewController alloc] init];
     self.loginVC = [[LoginViewController alloc] init];
     self.menuVC = [[MenuViewController alloc] init];
+    self.pictureVC = [[PictureViewController alloc] init];
+    self.topPictureVC = [[TopPictureViewController alloc] init];
+    self.uploadVC = [[UploadViewController alloc] init];
     
     self.navController = [[NavViewController alloc] initWithRootViewController:self.cardVC];
     

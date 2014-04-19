@@ -9,6 +9,7 @@
 #import "MenuViewController.h"
 #import "AppDelegate.h"
 #import "User.h"
+#import "REFrostedViewController.h"
 #import <QuartzCore/QuartzCore.h>
 
 @interface MenuViewController ()
@@ -143,6 +144,38 @@
         cell.textLabel.text = controllers[indexPath.row];
     }
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if (indexPath.section == 0) {
+        AppDelegate *delegate = (AppDelegate *) [UIApplication sharedApplication].delegate;
+        switch (indexPath.row) {
+            case 0:{ // Home
+                self.frostedViewController.contentViewController = delegate.cardVC;
+                break;
+            }
+            case 1:{ // My Pictures
+                self.frostedViewController.contentViewController = delegate.pictureVC;
+                break;
+            }
+            case 2:{ // Top Pictures
+                self.frostedViewController.contentViewController = delegate.topPictureVC;
+                break;
+            }
+            case 3:{ // Upload Pictures
+                self.frostedViewController.contentViewController = delegate.uploadVC;
+                break;
+            }
+            default:{
+                break;
+            }
+        }
+        [self.frostedViewController hideMenuViewController];
+    }
+    if (indexPath.section == 0 && indexPath.row == 0) {
+        
+    }
 }
 
 - (void)didReceiveMemoryWarning
