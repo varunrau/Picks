@@ -4,7 +4,27 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-REFrostedViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RestKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SOCKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TransitionKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>A03F46F7A1AA484ABDBBB7A6</key>
+		<key>365E44C5B9134EC5AFA927DE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D09642FF68C448669478F176</key>
+		<key>7519F530D71D46CBB9A653FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7701B138327A4B9FB534FEAC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8414C13D8864E7FB8FDA16F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D7F108DA209544888138F60D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DDFC2FD70CA541C5ACC937C2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
