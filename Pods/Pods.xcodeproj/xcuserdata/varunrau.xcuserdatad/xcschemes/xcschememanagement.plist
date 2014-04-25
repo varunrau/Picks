@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-AFAmazonS3Client.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-JDStatusBarNotification.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,32 +47,42 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>365E44C5B9134EC5AFA927DE</key>
+		<key>0385DF3BD6304FD78459E3AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7519F530D71D46CBB9A653FD</key>
+		<key>063BBC4390714A2AA16F94D5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7701B138327A4B9FB534FEAC</key>
+		<key>0EA56D8D4481448B91F5AEE2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A8414C13D8864E7FB8FDA16F</key>
+		<key>3A67C6CCFEDA404E802E126B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D7F108DA209544888138F60D</key>
+		<key>3EA2D47C37E54E81B17F2AD7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DDFC2FD70CA541C5ACC937C2</key>
+		<key>55989A5DABA04523BA0270F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8C022B2C1FD1407A96BD28B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A7C09E860D1549DAABBBF879</key>
 		<dict>
 			<key>primary</key>
 			<true/>

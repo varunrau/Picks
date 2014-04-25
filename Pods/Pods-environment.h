@@ -6,11 +6,23 @@
 // project.
 
 
+// AFAmazonS3Client
+#define COCOAPODS_POD_AVAILABLE_AFAmazonS3Client
+#define COCOAPODS_VERSION_MAJOR_AFAmazonS3Client 0
+#define COCOAPODS_VERSION_MINOR_AFAmazonS3Client 3
+#define COCOAPODS_VERSION_PATCH_AFAmazonS3Client 0
+
 // AFNetworking
 #define COCOAPODS_POD_AVAILABLE_AFNetworking
 #define COCOAPODS_VERSION_MAJOR_AFNetworking 1
 #define COCOAPODS_VERSION_MINOR_AFNetworking 3
 #define COCOAPODS_VERSION_PATCH_AFNetworking 4
+
+// JDStatusBarNotification
+#define COCOAPODS_POD_AVAILABLE_JDStatusBarNotification
+#define COCOAPODS_VERSION_MAJOR_JDStatusBarNotification 1
+#define COCOAPODS_VERSION_MINOR_JDStatusBarNotification 4
+#define COCOAPODS_VERSION_PATCH_JDStatusBarNotification 7
 
 // REFrostedViewController
 #define COCOAPODS_POD_AVAILABLE_REFrostedViewController

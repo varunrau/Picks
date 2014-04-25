@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8C022B2C1FD1407A96BD28B1"
-               BuildableName = "libPods-REFrostedViewController.a"
-               BlueprintName = "Pods-REFrostedViewController"
+               BlueprintIdentifier = "3A67C6CCFEDA404E802E126B"
+               BuildableName = "libPods-AFAmazonS3Client.a"
+               BlueprintName = "Pods-AFAmazonS3Client"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

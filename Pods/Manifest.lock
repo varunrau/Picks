@@ -1,5 +1,8 @@
 PODS:
+  - AFAmazonS3Client (0.3.0):
+    - AFNetworking (~> 1.0)
   - AFNetworking (1.3.4)
+  - JDStatusBarNotification (1.4.7)
   - REFrostedViewController (2.4.5)
   - RestKit (0.20.3):
     - RestKit/Core
@@ -20,11 +23,15 @@ PODS:
   - TransitionKit (1.1.1)
 
 DEPENDENCIES:
+  - AFAmazonS3Client (~> 0.3)
+  - JDStatusBarNotification
   - REFrostedViewController (~> 2.4.5)
   - RestKit (~> 0.20.0)
 
 SPEC CHECKSUMS:
+  AFAmazonS3Client: d1d25681e07c61d138d8c75fce2ace31ef7d4ebf
   AFNetworking: e403d4333a4e1956cb3fe42364c3c879f820c9a0
+  JDStatusBarNotification: 8801f6fcd7e2c2a8b01aaea5a9b049b1cc395491
   REFrostedViewController: ab017bbd8d8ab3b23615ef308707711d8576999b
   RestKit: 1f181c180105a92f11ec4f6cd7de37625e516d83
   SOCKit: 8871d058926a6c6cc144f0c5eee82c5d0ec274a3
